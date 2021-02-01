@@ -1,0 +1,163 @@
+.slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  .atbd-pagination__link{
+    width:50px !important;
+    height: 50px !important;
+  }
+  .atbd-pagination__link:hover{
+    color: white !important;
+  }
+  .atbd-pagination__item, .atbd-pagination__link.pagination-control{
+    margin: 0px !important;
+    border-radius: 7px;
+  }
+  .active .atbd-pagination__link{
+    background: #d94f00;
+    border-radius: 7px;
+    color: white;
+  }
+  .w-100p{
+    width:100%
+  }
+  .link{
+    cursor: pointer;
+  }
+  .katex .base {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  
+  .fixed-btn{
+    width: 150px;
+    height: 55px;
+  }
+  
+  .vue-pincode-input{
+    max-width: 45px !important;
+    height: 45px;
+    box-shadow: none !important;
+    background-color: #f9eff8;
+    color: red;
+  }
+  .ml-auto{
+    margin-left:auto !important;
+  }
+  .sidebar_nav .router-link-exact-active.router-link-active{
+    color: #d94f00 !important;
+    background-color: rgb(248, 252, 255) !important;
+
+  }
+  .order-search__form{
+    height: 45px;
+  }
+
+  .atbd-pagination__link{
+    margin: 0px 3px !important;
+  }
+
+  .vs__dropdown-toggle{
+    background-color: #fff;
+    border: 1px solid 1px solid #fdfdfd !important;
+    border-radius: 4px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .error{
+    border-color: rgb(241, 92, 46) !important;
+  }
+
+  .CodeMirror-sizer {
+    padding: 10px;
+  }
+
+  .v-md-toolbar {
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 0 !important;
+  }
+
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .card__body-cover-checkbox{
+
+    justify-content: center;
+      display: flex;
+  }
+  .sticky{
+    position: sticky;
+    top: 80px;
+    background: #f1f2f5;
+    z-index: 1;
+  }
+  .bg-pos{
+    background-size:cover;
+    background-position: center;
+    display: inline-block;
+    top: 80px;
+    z-index: 1;
+  }
+
+.vue-slider-process {
+  background-color: #D94F00 !important;
+}
+
+.vue-slider-dot-tooltip-inner {
+  background-color: #D94F00 !important;
+  border-color: #d94f00 !important;  
+}
+
+.vue-slider-dot-handle-focus {
+  box-shadow: 0px 0px 1px 2px rgb(219, 141, 52) !important;
+}
+.lowercase{
+  text-transform: lowercase !important;
+}
+
+ul.sidebar_nav li:nth-child(1) a .nav-icon {
+    color: #c8cde0 !important;
+}
